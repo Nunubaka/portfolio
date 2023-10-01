@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 16px;color: #666666;margin: 0;}
+header{ width: 100%;height: 60px;background-color: rgba(255,255,255,0.80);box-shadow: 5px 5px 5px #1D3A93;position: fixed; left: 0;top: 0; z-index: 100}
+.logo{padding-top: 10px;}
+.logo img{width:25%; }
+.menu{ padding-top: 17px}
+.menu ul{margin: 0;padding: 0;list-style: none;display: flex}
+.menu ul li a{padding: 10px 20px;border-radius: 20px}
+.menu ul li a:hover{background-color: #1D3A93;color:white}
+.menu ul li a.active{background-color: rgba(24,58,147,1.00);color:white}
+#home{width: 100%;min-height: 700px;padding-top: 100px;}
+.idnu{width:90%;margin-top:50px;}
+.ten{font-size: 36px;color: #666666}
+#about{width: 100%;min-height: 1000px;padding-top: 120px;}
+#about .year{width: 100%;color: black;padding: 10px}
+#about .so{height: 130px;font-size: 130px;font-weight: bold;}
+#about .year h5{margin-top: 0;letter-spacing: 22px;padding-left: 10px}
+.sparkles{width:3%;}
+#skill{width: 100%;min-height: 1000px;padding-top: 100px;background-color:#1D3A93;}
+.sparkle2{width:2%}
+.p2{color:white;}
+.progress{width: 100%;height: 7px;line-height: 7px;background-color:black;border-radius: 10px; overflow: hidden}
+.bar{height: 7px;border-radius: 10px;color: white}
+.skilli{width:85%;margin-bottom:10px;}
+.barline{width:80%;padding-top:2px;}
+#service{width: 100%;min-height: 700px;padding-top: 100px;}
+#service .service{width: 100%;min-height: 100px;display: flex}
+#service .service-icon{height: 130px;width: 180px;border: 1px solid #1D3A93;display: flex;justify-content: center;align-items: center}
+#service .service-icon i{font-size: 70px;color: #1D3A93;transition: all 0.8s}
+#service .service:hover .service-icon i{font-size: 65px}
+#service .service-icon img{width: 45px;transition: all 0.6s}
+#service .service:hover .service-icon img{width: 70px}
+#service .service-text{width: 80%;height: 130px;padding: 15px;transition:  all 0.8s}
+#service .service:hover .service-text{background-color: #1D3A93;color: white}
+
+#project{
+	width: 100%;min-height: 800px;padding-top: 100px;}
+#project .tab2 {overflow: hidden;}
+/* Style the buttons inside the tab */
+#project .tab2 button {background: none;border: none;outline: none;cursor: pointer;padding: 5px;transition: 0.3s;font-size: 18px;
+	border-bottom: 2px solid #1D3A93;margin-left: 5px;color:#1D3A93}
+#project .tab2 button:hover {color: #666666;border-bottom: 2px solid #666666}
+#project .tab2 button.active {color: #666666;border-bottom: 2px solid #666666}
+#project .tabcontent2 {display: none; padding: 6px 12px;border-top: none;}
+
+
+#gallery .owl-nav { position:absolute; left:0px; top:30%; width:100%; }
+#gallery .owl-nav [class*='owl-'] {font-size:40px;  color: black;width: 40px;}
+#gallery .owl-nav .owl-next{ position:absolute; right:-3%;}
+#gallery .owl-nav .owl-prev{ position:absolute; left:-3%;}
+#gallery .owl-nav [class*='owl-']:hover {
+      background:none;
+      color:#F38889;
+      text-decoration: none; }
+
+#testimonial{width: 100%;min-height: 800px;padding-top: 100px;background-color:#1D3A93}
+#testimonial .client{text-align: center;display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 10px 40px}
+#testimonial .client img{width: 120px;height:120px;border-radius: 50%}
+.vien{border: 1px solid #218EE8;padding: 5px;}
+#cam-nhan .owl-nav { position:absolute; left:0px; top:45%; width:100%; }
+#cam-nhan .owl-nav [class*='owl-'] {
+	font-size:40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: white;
+}
+
+#cam-nhan .owl-nav .owl-next{ position:absolute; right:0%;}
+#cam-nhan .owl-nav .owl-prev{ position:absolute; left:0%;}
+#cam-nhan .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#F45A85;
+      text-decoration: none; }
+#contact{width: 100%;min-height: 800px;padding-top: 100px;}
+.tieu-de3{color:black;font-size:36px;}
+.tieu-de4{color:black;}
+.tieu-de5{color:black;font-size:18px;}
+#btn-back-to-top { position: fixed;bottom: 20px;right: 20px;display: none;}
+.text-xanh{color: #1D3A93;}
+.text-trang{color: white;}
+.bo-goc{border-radius: 8px}
+.tieu-de{font-size: 36px;color: #1D3A93;}
+.tieu-de2{font-size:36px;color:white;}
+/*===tab html css===*/
+/* Style the tab */
+.tab {width:90%;overflow: hidden;border: 1px solid white;border-radius: 7px;display: flex;padding: 4px;}
+.tablinks{color:white;}
+/* Style the buttons inside the tab */
+.tab button { width: 50%; border: none; outline: none;cursor: pointer;padding: 14px 16px; transition: 0.3s;font-size: 17px;background: none;}
+/* Change background color of buttons on hover */
+.tab button:hover {background-color: #1D3A93;color: white;border-radius: 7px; font-weight:bold;}
+/* Create an active/current tablink class */
+.tab button.active {background-color: white;color:#1D3A93;border-radius: 7px;font-weight:bold;}
+.tabcontent { display: none;padding: 6px 12px;border-top: none;}
+
+
+
